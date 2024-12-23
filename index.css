@@ -1,21 +1,129 @@
-.container-u {
-  margin: 0;
-  padding: 0;
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.products {
-  display: flex;
+.navbar {
   width: 100vw;
-  flex-wrap: wrap;
-  justify-content: center;
+  background-color: #fff;
+  font-size: medium;
+  font-weight: 500;
+  /* top: 0;
+  left: 0; */
 }
-.card {
-  width: 300px;
-  height: 400px;
+.logo1 .navbar-brand {
+  font-weight: 700;
 }
-/* .btn {
-  color: white;
-  background-color: #0f6feb;
+
+.navbar a:hover,
+.navbar a:active,
+.collapse .navbar-nav a:hover,
+.collapse .navbar-nav a:active,
+.logos2 i:hover {
+  color: coral;
+}
+.carousel {
+  margin-top: 73px;
+  z-index: 10;
+}
+.textOnCarousal {
+  position: absolute;
+  top: 77vh;
+  left: 17vw;
+  z-index: 100;
+  background-color: #fff;
+  padding: 10px;
+}
+.brands {
+  z-index: 100;
+  margin-top: 100px;
+}
+/* .offers img {
+  height: 50vh;
+  background-image: none;
+} */
+
+.product img {
   width: 100%;
-  height: 1.5rem;
-  text-align: center;
+  height: 300px;
+}
+.product1 img {
+  padding: 10px;
+  width: 100%;
+  height: 300px;
+}
+.product img:hover,
+.product1 img:hover {
+  /* border: 0.5px solid #2a2a2a; */
+  /* background-color: rgb(245, 216, 221); */
+  opacity: 0.6;
+}
+.information {
+  background-color: #fff;
+}
+.information h3 {
+  font-size: large;
+  font-weight: 900;
+}
+.information button {
+  border-radius: 20px;
+  width: 10vw;
+  background-color: goldenrod;
+}
+
+.BackToTop {
+  padding: 20px;
+  background-color: rgb(58, 46, 46);
+}
+.BackToTop a {
+  text-decoration: none;
+  color: white;
+}
+hr {
+  color: orange;
+}
+.p-image img {
+  height: 70vh;
+}
+.p-description .path {
+  color: black;
+  opacity: 0.3;
+}
+.p-description h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.price {
+  padding: 5px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.p-description select {
+  padding: 5px;
+  border-radius: 5px;
+  display: block;
+
+  margin-bottom: 10px;
+}
+.p-description input {
+  width: 50px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+.p-description button {
+  padding: 5px;
+  color: white;
+  background-color: coral;
+  border-radius: 5px;
+  font-size: small;
+  border: none;
+}
+.p-description button:hover {
+  border: 2px solid orange;
+}
+.desc {
+  font-size: 25px;
+  font-weight: 500;
+}
+/* .related hr {
+  width: 20px;
+  font-weight: 900;
 } */
